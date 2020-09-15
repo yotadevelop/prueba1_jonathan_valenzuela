@@ -1,13 +1,29 @@
 .portada{
+    margin: 20px 20px 20px 20px;
     border: 1px solid red;
+    background-image: url('../img/portada.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.portada h1, h5{
+    text-align: center;
+    color: white;
+}
+
+.cabeza{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .cabeza img {
-    height: 50px;
+    height: 40px;
 }
 
 .menu ul{
-   
+    display: flex;
 }
 
 .menu a{
@@ -15,6 +31,7 @@
 }
 
 .menu li{
-    
+    margin-right: 20px;
     list-style-type: none;
+    color:white;
 }
