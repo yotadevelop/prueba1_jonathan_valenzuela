@@ -1,3 +1,7 @@
+body{
+    background: coral;
+}
+
 .portada{
     margin: 5px 5px 5px 5px;
     background-image: url('../img/portada.jpg');
@@ -23,11 +27,13 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    padding-top: 10px;
 }
 
 .cabeza img {
     height: 30px;
     border-radius: 15px;
+    padding-left: 10px;
 }
 
 .menu ul{
@@ -47,15 +53,53 @@
 }
 .exep{
     
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 5px;
 }
-
+/*---------------------Segunda parte---------------*/
 .productos{
     border:1px solid green;
-    
+    text-align: center;
+    font-weight: bold;
 }
 
+.grupo{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.p1{
+    background: white;
+    border: 1px solid green;
+    height: 100%;
+    width: 60%;
+}
+
+.p1 img{
+    padding: 0px;
+    height: 400px;
+}
+
+.p2{
+    background: white;
+    border: 1px solid orange;
+    height: 350px;
+    width: 300px;
+}
+.p2 img{
+    height: 30%;
+}
+
+.p3{
+    background: white;
+    border: 1px solid red;
+    height: 350px;
+    width: 300px;;
+}
+.p3 img{
+    height: 20%;
+}
 @media screen and (min-width: 768px){
     .portada{
         background-image: url('../img/portada.jpg');
