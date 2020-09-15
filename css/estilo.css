@@ -1,15 +1,22 @@
 .portada{
-    margin: 20px 20px 20px 20px;
+    margin: 5px 5px 5px 5px;
     background-image: url('../img/portada.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100% 300%;
+    background-size: 200% 200%;
+    height: 600px;
     
 }
 
-.portada h1, h5{
+.portada h1{
     text-align: center;
     color: white;
+}
+
+.portada h3{
+    text-align: center;
+    color: white;
+    text-decoration:underline;
 }
 
 .cabeza{
@@ -24,8 +31,9 @@
 }
 
 .menu ul{
+    margin-top: 0px;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .menu a{
@@ -38,7 +46,14 @@
     color:white;
 }
 .exep{
-    border:3px solid grey;
+    
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.productos{
+    border:1px solid green;
+    
 }
 
 @media screen and (min-width: 768px){
@@ -46,5 +61,20 @@
         background-image: url('../img/portada.jpg');
         background-repeat: no-repeat;
         background-position: center;
+        background-size: 200% 200%;
+        padding-bottom: 100px;
     }
+
+    .portada h1{
+        text-align: center;
+        color: white;
+        margin: 0px;
+    }
+
+    .portada h3{
+        text-align: center;
+        color: white;
+    }
+    
+
 }
