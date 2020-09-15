@@ -1,9 +1,9 @@
 .portada{
     margin: 20px 20px 20px 20px;
-    border: 1px solid red;
     background-image: url('../img/portada.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 100% 300%;
     
 }
 
@@ -19,11 +19,13 @@
 }
 
 .cabeza img {
-    height: 40px;
+    height: 30px;
+    border-radius: 15px;
 }
 
 .menu ul{
     display: flex;
+    align-items: flex-start;
 }
 
 .menu a{
@@ -34,4 +36,15 @@
     margin-right: 20px;
     list-style-type: none;
     color:white;
+}
+.exep{
+    border:3px solid grey;
+}
+
+@media screen and (min-width: 768px){
+    .portada{
+        background-image: url('../img/portada.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 }
